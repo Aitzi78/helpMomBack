@@ -8,8 +8,11 @@ flask = "*"
 flask-sqlalchemy = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
+flask-cors = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "2.7"
+python_version = "3.11"
